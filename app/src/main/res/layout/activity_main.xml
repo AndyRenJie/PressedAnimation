@@ -1,0 +1,161 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textColor="@color/colorWhite"
+        android:textSize="20sp"
+        android:background="@color/colorBlue"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:layout_margin="2dp">
+
+        <com.andyren.pressanim.weiget.PressedAnimationLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorRed"
+            android:layout_marginRight="2dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="酒店"
+                android:textColor="@color/colorWhite"/>
+        </com.andyren.pressanim.weiget.PressedAnimationLayout>
+
+        <com.andyren.pressanim.weiget.PressedAnimationLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorRed"
+            android:layout_marginRight="2dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="团购"
+                android:textColor="@color/colorWhite"/>
+        </com.andyren.pressanim.weiget.PressedAnimationLayout>
+
+        <com.andyren.pressanim.weiget.PressedAnimationLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorRed">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="民宿"
+                android:textColor="@color/colorWhite"/>
+        </com.andyren.pressanim.weiget.PressedAnimationLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:layout_margin="2dp">
+
+        <com.andyren.pressanim.weiget.PressedAnimationLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorBlue"
+            android:layout_marginRight="2dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="机票"
+                android:textColor="@color/colorWhite"/>
+        </com.andyren.pressanim.weiget.PressedAnimationLayout>
+
+        <com.andyren.pressanim.weiget.PressedAnimationLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorBlue"
+            android:layout_marginRight="2dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="火车票"
+                android:textColor="@color/colorWhite"/>
+        </com.andyren.pressanim.weiget.PressedAnimationLayout>
+
+        <com.andyren.pressanim.weiget.PressedAnimationLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorBlue">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="船票"
+                android:textColor="@color/colorWhite"/>
+        </com.andyren.pressanim.weiget.PressedAnimationLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:layout_margin="2dp">
+
+        <com.andyren.pressanim.weiget.PressedAnimationLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorGreen"
+            android:layout_marginRight="2dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="旅游"
+                android:textColor="@color/colorWhite"/>
+        </com.andyren.pressanim.weiget.PressedAnimationLayout>
+
+        <com.andyren.pressanim.weiget.PressedAnimationLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorGreen"
+            android:layout_marginRight="2dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="门票"
+                android:textColor="@color/colorWhite"/>
+        </com.andyren.pressanim.weiget.PressedAnimationLayout>
+
+        <com.andyren.pressanim.weiget.PressedAnimationLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorGreen">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="攻略"
+                android:textColor="@color/colorWhite"/>
+        </com.andyren.pressanim.weiget.PressedAnimationLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
